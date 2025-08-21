@@ -4,3 +4,6 @@ taxes.xlsx
 taxes_edit.xlsx
 fuel.xlsx
 fuel_edit.xlsx
+data.json
+test.xlsx
+__pycache__
