@@ -26,3 +26,4 @@ def get_last_page(input_file):
     except Exception as e:
         print(f'Error: something went wrong {e}\n')
 get_last_page('TestpdfFile.pdf')
+
