@@ -21,8 +21,8 @@ def rotate_pdf_pages(input_file, output_file):
         for page in range(page_length):
             file_pages = pdf_pages[page].rotate(270)
             writer.add_page(file_pages)
-            with open(output_file, 'wb') as file:
-                writer.write(file)
+        with open(output_file, 'wb') as file:
+            writer.write(file)
     except Exception as e:
         print(f'Error, something went wrong {e}')
     

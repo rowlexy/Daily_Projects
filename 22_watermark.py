@@ -1,3 +1,6 @@
+# add a watermark page to the tesfile
+# try over=True & over=False
+
 import pypdf as pdf
 
 def add_watermark(input_file, watermark, final_output):
@@ -13,4 +16,4 @@ def add_watermark(input_file, watermark, final_output):
     with open(final_output, 'wb') as file:
         writer.write(file)
     print('Sticker successfully added')    
-add_watermark('TestpdfFile.pdf', 'watermark.pdf', 'test_watermark.pdf')
+add_watermark('TestpdfFile.pdf', 'watermark.pdf', 'true_watermark.pdf')
